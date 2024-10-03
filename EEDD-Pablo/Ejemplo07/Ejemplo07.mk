@@ -6,15 +6,15 @@
 ProjectName            :=Ejemplo07
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
-WorkspacePath          :=C:/Users/Pablo/Desktop/EEDD-Pablo-Alberto/EEDD-Pablo
-ProjectPath            :=C:/Users/Pablo/Desktop/EEDD-Pablo-Alberto/EEDD-Pablo/Ejemplo07
+WorkspacePath          :=C:/Users/Pablo/Desktop/Data-Structures/EEDD-Pablo
+ProjectPath            :=C:/Users/Pablo/Desktop/Data-Structures/EEDD-Pablo/Ejemplo07
 IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/Ejemplo07
 OutDir                 :=$(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=Pablo
-Date                   :=9/19/2024
+Date                   :=9/26/2024
 CodeLitePath           :="C:/Program Files/CodeLite"
 MakeDirCommand         :=mkdir
 LinkerName             :=g++
@@ -29,7 +29,7 @@ OutputSwitch           :=-o
 LibraryPathSwitch      :=-L
 PreprocessorSwitch     :=-D
 SourceSwitch           :=-c 
-OutputDirectory        :=C:/Users/Pablo/Desktop/EEDD-Pablo-Alberto/EEDD-Pablo/build-$(WorkspaceConfiguration)/bin
+OutputDirectory        :=C:/Users/Pablo/Desktop/Data-Structures/EEDD-Pablo/build-$(WorkspaceConfiguration)/bin
 OutputFile             :=..\build-$(WorkspaceConfiguration)\bin\$(ProjectName).exe
 Preprocessors          :=
 ObjectSwitch           :=-o 
@@ -96,7 +96,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Pablo/Desktop/EEDD-Pablo-Alberto/EEDD-Pablo/Ejemplo07/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Pablo/Desktop/Data-Structures/EEDD-Pablo/Ejemplo07/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 
